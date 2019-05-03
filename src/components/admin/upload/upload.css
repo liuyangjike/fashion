@@ -1,0 +1,38 @@
+.button{
+  width: 80px;
+  height: 32px;
+  line-height: 32px;
+  background-color: #409EFF;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.up-container{
+  position: relative;
+  width: 80px;
+  background-color: #fff;
+}
+.form{
+  height: 80px
+}
+
+input[type='file'] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  z-index: 4;
+  opacity: 0;
+}
+
+.icon{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 0;
+  left: 5px;
+  background-size: cover;
+}

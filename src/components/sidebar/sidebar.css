@@ -1,0 +1,71 @@
+.sidebar{
+  width: 210px;
+  overflow: auto;
+  padding: 0 5px 0 15px;
+  font-family: arial;
+  color: #666;
+  background-color: #fff;
+  float: left;
+}
+
+.sidebar-title{
+  text-decoration: none;
+  width: 210px;
+  height: 70px;
+  display: block;
+  font-size: 20px;
+  padding-bottom: 10px;
+  background: url(https://fashion-2.oss-cn-shanghai.aliyuncs.com/11.jpg);
+  background-size: cover
+}
+
+.container{
+  padding: 50px 50px 25px 5px;
+}
+.project{
+  padding-bottom: 20px;
+}
+
+.project-title{
+  font-size: 12px;
+}
+
+.project-nam{
+  font-size: 12px;
+  text-decoration: none;
+  color: #333;
+  padding-left: 10px;
+  display: block;
+}
+
+
+
+.project-link{
+  font-size: 12px;
+  text-decoration: none;
+  color: #666;
+  padding-left: 10px;
+  display: block;
+}
+
+
+.project-nam:hover{
+  color: #409EFF
+}
+
+.project-link:hover{
+  color: #409EFF
+}
+
+
+.sidebar-title:hover{
+  color: #409EFF
+}
+.sidebar-title:active{
+  color: #409EFF
+}
+
+
+.active{
+  color: #333!important
+}
